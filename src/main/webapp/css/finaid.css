@@ -1,0 +1,12 @@
+
+.finaid-portlet .btn {
+  white-space:normal
+}
+.finaid-portlet .btn {
+  margin:2px;
+  background:#916c0e;
+  border:1px solid #342705
+}
+.finaid-portlet .btn:hover {
+  background:#a87d10
+}
