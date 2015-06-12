@@ -5,7 +5,7 @@
     <paidAmt>0</paidAmt>
     <fund>Loanz</fund>
   </ns2:awards>
-  
+
   <ns2:awards>
     <status>Declined</status>
     <offeredAmnt>0</offeredAmnt>
@@ -25,19 +25,49 @@
     <offeredAmnt>5</offeredAmnt>
     <paidAmt>0</paidAmt>
     <fund>More moniez</fund>
+   </ns2:awards>
+
+   <ns2:hold>
+     <reg>You owe more than $0</req>
+     <url>http://www.oakland.edu/registrar/holds</url>
+   </ns2:hold>
+
+   <ms2:progress>
+     <status>You've been reviewed... No.</status>
+   </ns2:progress>
+
+   <ns2:term>
+     <code>12345</code>
+     <desc>Winter Semester 2015</desc>
+   </ns2:term>
+</ns2:FinancialInfo>
+
+<ns2:FinancialInfo>
+  <ns2:awards>
+    <status>Accepted</status>
+    <offeredAmnt>100</offeredAmnt>
+    <paidAmt>100</paidAmt>
+    <fund>Loanz</fund>
   </ns2:awards>
 
-  <ns2:hold>
-      <reg></req>
-      <url></url>
-  </ns2:hold>
+  <ns2:awards>
+    <status>Declined</status>
+    <offeredAmnt>44444</offeredAmnt>
+    <paidAmt>0</paidAmt>
+    <fund>Bank</fund>
+  </ns2:awards>
 
-  <ms2:progress>
-    <status>You've been reviewed... No.</status>
+  <ns2:holds>
+    <req></req>
+    <url></url>
+  </ns2:holds>
+
+  <ns2:progress>
+    <ns2:status>Eligible for financial aid</ns2:status>
   </ns2:progress>
 
   <ns2:term>
-      <code>12345</code>
-      <desc>Winter Semester 2015</desc>
+    <code>67891</code>
+    <desc>Summer Semester 2016</desc>
   </ns2:term>
-</ns2:FinancialInfo>
+</ns2:FinancialInfol>
