@@ -1,46 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<xs:schema
-  xmlns="http://source.jasig.org/schemas/portlet/financialaid/financialinfo"
-  targetNamespace="http://source.jasig.org/schemas/portlet/financialaid/financialinfo"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0">
-
-  <xs:complexType name="user" abstract="true">
-  </xs:complexType>
-
-    <xs:complexType name="awards">
-
-      <!-- Award Attributes -->
-      <xs:attribute name="status" type="xs:string"> 
-      <xs:attribute name="offeredAmnt" type="xs:string"> 
-      <xs:attribute name="paidAmt" type="xs:string"> 
-      <xs:attribute name="fund" type="xs:string"> 
-     </xs:complexType>
-
-    <xs:complexType name="hold">
-
-      <!-- Hold Attributes -->
-      <xs:attribute name="req" type="xs:string"> 
-      <xs:attribute name="url" type="xs:string"> 
-    </xs:complexType>
-
-    <xs:complexType name="progress">
-
-      <!-- Progress Attributes -->
-      <xs:attribute name="status" type="xs.string">
-    </xs:complexType>
-
-    <xs:complexType name="term">
-      <xs:sequence>
-      </xs:sequence>
-
-      <!-- Term Attributes -->
-      <xs:attribute name="code" type="xs:string">
-      <xs:attribute name="desc" type="xs:string">
-    </xs:complexType>
-
-</xs:schema>
-
 <ns2:FinancialInfo>
   <ns2:awards>
     <status>Accepted</status>
@@ -84,8 +41,3 @@
       <desc>Winter Semester 2015</desc>
   </ns2:term>
 </ns2:FinancialInfo>
-
-
-
-
-
