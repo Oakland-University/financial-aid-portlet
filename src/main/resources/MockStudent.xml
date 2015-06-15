@@ -1,73 +1,85 @@
 <ns2:FinancialInfo>
-  <ns2:awards>
+  <ns2:award>
     <status>Accepted</status>
     <offeredAmnt>100000</offeredAmnt>
     <paidAmt>0</paidAmt>
     <fund>Loanz</fund>
-  </ns2:awards>
+    <type>award</type>
+  </ns2:award>
 
-  <ns2:awards>
+  <ns2:award>
     <status>Declined</status>
     <offeredAmnt>0</offeredAmnt>
     <paidAmt>0</paidAmt>
     <fund>Monies</fund>
-  </ns2:awards>
+    <type>award</type>
+  </ns2:award>
 
-  <ns2:awards>
+  <ns2:award>
     <status>Super Declined</status>
     <offeredAmnt>400000</offeredAmnt>
     <paidAmt>-8<paidAmt>
     <fund>OU Moniez</fund>
-  </ns2:awards> 
+    <type>award</type>
+  </ns2:award> 
 
-  <ns2:awards>
+  <ns2:award>
     <status>Tentatively Accepted</status>
     <offeredAmnt>5</offeredAmnt>
     <paidAmt>0</paidAmt>
     <fund>More moniez</fund>
-   </ns2:awards>
+    <type>award</type>
+   </ns2:award>
 
    <ns2:hold>
      <reg>You owe more than $0</req>
      <url>http://www.oakland.edu/registrar/holds</url>
+    <type>hold</type>
    </ns2:hold>
 
    <ms2:progress>
      <status>You've been reviewed... No.</status>
+    <type>progress</type>
    </ns2:progress>
 
    <ns2:term>
      <code>12345</code>
      <desc>Winter Semester 2015</desc>
+    <type>term</type>
    </ns2:term>
 </ns2:FinancialInfo>
 
 <ns2:FinancialInfo>
-  <ns2:awards>
+  <ns2:award>
     <status>Accepted</status>
     <offeredAmnt>100</offeredAmnt>
     <paidAmt>100</paidAmt>
     <fund>Loanz</fund>
-  </ns2:awards>
+    <type>award</type>
+  </ns2:award>
 
-  <ns2:awards>
+  <ns2:award>
     <status>Declined</status>
     <offeredAmnt>44444</offeredAmnt>
     <paidAmt>0</paidAmt>
     <fund>Bank</fund>
-  </ns2:awards>
+    <type>award</type>
+  </ns2:award>
 
-  <ns2:holds>
+  <ns2:hold>
     <req></req>
     <url></url>
-  </ns2:holds>
+    <type>hold</type>
+  </ns2:hold>
 
   <ns2:progress>
     <ns2:status>Eligible for financial aid</ns2:status>
+    <type>progress</type>
   </ns2:progress>
 
   <ns2:term>
     <code>67891</code>
     <desc>Summer Semester 2016</desc>
+    <type>term</type>
   </ns2:term>
 </ns2:FinancialInfol>
