@@ -1,31 +1,27 @@
 package org.apereo.finaid.dao.mock;
 
+import java.io.IOException;
 import java.util.Map;
 import java.util.TreeMap;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Collections;
+import javax.annotation.PostConstruct;
 
 import org.apereo.finaid.dao.ITermDao;
 import org.apereo.finaid.mvc.models.Term;
 
-import org.springframework.stereotype.Repository;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.context.annotation.Scope;
 import org.springframework.context.annotation.ScopedProxyMode;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.context.WebApplicationContext;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-//Mock data
-import javax.annotation.PostConstruct;
-import java.io.IOException;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-import org.springframework.core.io.ClassPathResource;
 
 @Repository
 @Scope(value=WebApplicationContext.SCOPE_SESSION, proxyMode=ScopedProxyMode.INTERFACES)

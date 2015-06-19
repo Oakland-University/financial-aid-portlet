@@ -1,8 +1,10 @@
 package org.apereo.finaid.dao.mock;
 
+import java.io.IOException;
 import java.util.Map;
 import java.util.List;
 import java.util.Collections;
+import javax.annotation.PostConstruct;
 
 import org.apereo.finaid.dao.IFinancialInfo;
 import org.apereo.finaid.mvc.models.FinancialInfo;
@@ -11,20 +13,17 @@ import org.apereo.finaid.mvc.models.Award;
 import org.apereo.finaid.mvc.models.Term;
 import org.apereo.finaid.mvc.models.Hold;
 
-import org.springframework.stereotype.Repository;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Repository;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-//Mock data
-import javax.annotation.PostConstruct;
-import java.io.IOException;
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.TypeReference;
-import org.springframework.core.io.ClassPathResource;
 
 @Repository
 public class MockFinancialInfo implements IFinancialInfo {
