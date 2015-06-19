@@ -1,0 +1,180 @@
+{
+    "201440": {
+        "awards": [
+            {
+                "fund": "Non-resident Tuition Diff TR",
+                "offeredAmt": "7072.00",
+                "paidAmt": "7072.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "OU Distinguished Transfer 11",
+                "offeredAmt": "750.00",
+                "paidAmt": "750.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal PLUS (Parent) Loan",
+                "offeredAmt": "0.00",
+                "paidAmt": "0.00",
+                "status": "Denied Loan"
+            },
+            {
+                "fund": "Federal Subsidized Direct Loan",
+                "offeredAmt": "1750.00",
+                "paidAmt": "1732.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal Unsubsidiz Direct Loan",
+                "offeredAmt": "3000.00",
+                "paidAmt": "2969.00",
+                "status": "Accepted"
+            }
+        ],
+        "holds": [],
+        "progress": {
+            "status": "Eligible for financial aid"
+        }
+    },
+    "201510": {
+        "awards": [
+            {
+                "fund": "Non-resident Tuition Diff TR",
+                "offeredAmt": "7072.00",
+                "paidAmt": "7072.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "OU Distinguished Transfer 11",
+                "offeredAmt": "750.00",
+                "paidAmt": "750.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal PLUS (Parent) Loan",
+                "offeredAmt": "0.00",
+                "paidAmt": "0.00",
+                "status": "Denied Loan"
+            },
+            {
+                "fund": "Federal Subsidized Direct Loan",
+                "offeredAmt": "1750.00",
+                "paidAmt": "1732.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal Unsubsidiz Direct Loan",
+                "offeredAmt": "3000.00",
+                "paidAmt": "2969.00",
+                "status": "Accepted"
+            }
+        ],
+        "holds": [],
+        "progress": {
+            "status": "Eligible for financial aid"
+        }
+    },
+    "201530": {
+        "awards": [
+            {
+                "fund": "Federal Subsidized Direct Loan",
+                "offeredAmt": "1000.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            }
+        ],
+        "holds": [],
+        "progress": {
+            "status": "Eligible for financial aid"
+        }
+    },
+    "201540": {
+        "awards": [
+            {
+                "fund": "Federal Pell Grant",
+                "offeredAmt": "1413.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "OU Distinguished Transfer",
+                "offeredAmt": "750.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Non-resident Tuition Diff TR",
+                "offeredAmt": "7270.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal PLUS (Parent) Loan",
+                "offeredAmt": "4972.00",
+                "paidAmt": "0.00",
+                "status": "Estimated"
+            },
+            {
+                "fund": "Federal Subsidized Direct Loan",
+                "offeredAmt": "2250.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal Unsubsidiz Direct Loan",
+                "offeredAmt": "1000.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            }
+        ],
+        "holds": [],
+        "progress": {
+            "status": "Your status has not been reviewed yet"
+        }
+    },
+    "201610": {
+        "awards": [
+            {
+                "fund": "Federal Pell Grant",
+                "offeredAmt": "1412.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "OU Distinguished Transfer",
+                "offeredAmt": "750.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Non-resident Tuition Diff TR",
+                "offeredAmt": "7270.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal PLUS (Parent) Loan",
+                "offeredAmt": "4971.00",
+                "paidAmt": "0.00",
+                "status": "Estimated"
+            },
+            {
+                "fund": "Federal Subsidized Direct Loan",
+                "offeredAmt": "2250.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            },
+            {
+                "fund": "Federal Unsubsidiz Direct Loan",
+                "offeredAmt": "1000.00",
+                "paidAmt": "0.00",
+                "status": "Accepted"
+            }
+        ],
+        "holds": [],
+        "progress": {
+            "status": "Your status has not been reviewed yet"
+        }
+    }
+}
