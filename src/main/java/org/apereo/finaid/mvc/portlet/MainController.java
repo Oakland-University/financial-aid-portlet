@@ -57,14 +57,24 @@ public class MainController {
 
     private IViewSelector viewSelector;
 
-    @Autowired
     private ITermDao termDao;
-
-    @Autowired
     private IFinancialInfo financialInfoDao;
+    private StudentIdService studentIdService;
 
     @Autowired
-    private StudentIdService studentIdService;
+    public void setTermDao(ITermDao termDao) {
+      this.termDao = termDao;
+    }
+
+    @Autowired
+    public void setFinancialInfoDao(IFinancialInfo financialInfoDao) {
+      this.financialInfoDao = financialInfoDao;
+    }
+
+    @Autowired
+    public void setStudentIdService(StudentIdService studentIdService) {
+      this.studentIdService = studentIdService;
+    }
 
     @Autowired(required = true)
     public void setViewSelector(IViewSelector viewSelector) {
