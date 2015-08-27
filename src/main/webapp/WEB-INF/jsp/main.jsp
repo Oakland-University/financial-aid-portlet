@@ -92,15 +92,6 @@
     </c:otherwise>
   </c:choose>
 
-  <div class="row">
-    <div class="col-xs-12 links">
-      <a href="https://sail.oakland.edu/PROD/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu"
-          target="_blank" type="button" class="btn btn-primary">
-          <spring:message code="finaid"/>
-      </a>
-    </div>
-  </div>
-
 </div><%-- end .finaid-portlet --%>
 
 <portlet:resourceURL var="termJSONURL"/>
