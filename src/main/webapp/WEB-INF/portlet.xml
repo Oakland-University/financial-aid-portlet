@@ -27,11 +27,11 @@
     version="2.0">
 
     <portlet>
-        <portlet-name>finaid</portlet-name>
+        <portlet-name>Financial Aid</portlet-name>
         <portlet-class>org.springframework.web.portlet.DispatcherPortlet</portlet-class>
         <init-param>
             <name>contextConfigLocation</name>
-            <value>/WEB-INF/context/portlet/finaid-portlet.xml</value>
+            <value>/WEB-INF/context/portlet/financial-aid-portlet.xml</value>
         </init-param>
         <!-- This value is to 0 in dev, can set to cache at a positive value in seconds
             for caching, or -1 to never expire cache -->
