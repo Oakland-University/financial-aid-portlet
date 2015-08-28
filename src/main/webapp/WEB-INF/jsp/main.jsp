@@ -92,6 +92,16 @@
     </c:otherwise>
   </c:choose>
 
+  <div class="row">
+    <div class="col-xs-12 links">
+      <a href="https://google.com"
+          target="_blank" type="button" class="btn btn-primary">
+          <spring:message code="finaid"/>
+      </a>
+    </div>
+  </div>
+
+
 </div><%-- end .finaid-portlet --%>
 
 <portlet:resourceURL var="termJSONURL"/>
