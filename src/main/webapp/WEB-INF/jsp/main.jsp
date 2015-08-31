@@ -94,12 +94,13 @@
 
   <div class="row">
     <div class="col-xs-12 links">
-      <a href="https://sail.oakland.edu/PROD/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu"
+      <a href="https://google.com"
           target="_blank" type="button" class="btn btn-primary">
           <spring:message code="finaid"/>
       </a>
     </div>
   </div>
+
 
 </div><%-- end .finaid-portlet --%>
 
